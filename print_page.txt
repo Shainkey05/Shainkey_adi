@@ -8,6 +8,7 @@
 	<p>Click the button to print the current page.</p>
 	<button onclick="print_current_page()">Print this page</button>
 	<script>
+	//This function print the current page due to DOM element
 		function print_current_page()
 		{
 			window.print();
