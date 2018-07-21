@@ -1,7 +1,9 @@
 <div class="main">
   <h1>Add the Programming language</h1>
   <div class="addItem">
+    <!--This is the example of two way Binding-->
     <input [(ngModel)] = "newItem" placeholder="Add Language" class="addText">
+    <!--This is the example of one way Binding-->
     <button (click) = "pushItem()">Add</button>
   </div>
   <ul>
